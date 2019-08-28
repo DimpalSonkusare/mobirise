@@ -1,0 +1,387 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mainpage {
+    height: 100%;
+    width: 100%;
+    background-color: #ffc107e3;
+}
+
+.menu {
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    right: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+.title {
+    position: relative;
+    top: 250px;
+    left: 200px;
+    width: 80%
+}
+
+.title1 {
+    height: 30px;
+    width: 500px;
+    background-color: black;
+}
+
+.title2 {
+    height: 90px;
+    width: 650px;
+    background-color: black;
+    top: 50px;
+    position: absolute;
+}
+
+.button {
+    height: 10px;
+    width: 120px;
+    background-color: black;
+    top: 150px;
+    padding: 20px;
+    position: absolute;
+}
+
+.qualitytitle {
+    width: 100%;
+    background-color: white;
+}
+
+.qualityContent {
+    margin: auto;
+    width: 80%;
+    padding: 50px 0px;
+}
+
+.loremtitle {
+    height: 20px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+
+.lorempara {
+    width: 100%;
+    background-color: black;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.tagline {
+    background-color: #ffc107e3;
+    width: 93.4%;
+    position: relative;
+    padding: 50px;
+}
+
+.taglinecontent {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    height: 70px;
+}
+
+.shop {
+    height: 70%;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.shoptitle {
+    height: 70px;
+    width: 60%;
+    background-color: black;
+}
+
+.item {
+    width: 33.33%;
+    height: 78%;
+    padding: 20px;
+    float: left;
+}
+
+.images {
+    height: 78%;
+    width: 100%;
+    padding: 20px 0px;
+    overflow: auto;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.image3 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.shop2 {
+    height: 65%;
+    width: 100%;
+}
+
+.headphones {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.item2 {
+    width: 25%;
+    height: 45%;
+    padding: 20px;
+    float: left;
+}
+
+.headphonestitle {
+    height: 15%;
+    width: 45%;
+    background-color: black;
+}
+
+.headphone1 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headphone2 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headphone3 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headphone4 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headphone5 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headphone6 {
+    height: 100%;
+    width: 100%;
+    background-color: black
+}
+
+.headphone7 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.headphone8 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.tagline2 {
+    background-color: #ffc107e3;
+    width: 92.40%;
+    padding: 70px;
+    margin-top: 25px;
+}
+
+.taglinecontent2 {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    height: 70px;
+}
+
+.about {
+    height: 50%;
+    width: 100%;
+    top: 30px;
+    position: relative;
+    overflow: auto;
+}
+
+.details {
+    height: 100%;
+    width: 78%;
+    margin: auto;
+}
+
+.abouttitle {
+    height: 15%;
+    width: 60%;
+    margin: auto;
+    background-color: black;
+}
+
+.item3 {
+    height: 70%;
+    width: 25%;
+    padding: 20px;
+    float: left;
+}
+
+.quality1 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.quality2 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.quality3 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.quality4 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.contact {
+    height: 23%;
+    width: 100%;
+}
+
+.container2 {
+    width: 80%;
+    height: 50%;
+    margin: 100px 200px;
+}
+
+.question {
+    height: 45%;
+    width: 20%;
+    margin: 20px 620px;
+    background-color: black;
+}
+
+.visit {
+    height: 65%;
+    width: 60%;
+    margin: 20px 340px;
+    background-color: black;
+}
+
+.map {
+    height: 40%;
+    width: 100%;
+    background-color: black;
+}
+
+.copyright {
+    height: 15%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.copyright2 {
+    width: 80%;
+    padding: 0px 190px;
+    display: inline-block;
+}
+
+.symbol {
+    height: 120px;
+    width: 120px;
+    margin: 20px 0px 20px 0px;
+    background-color: black;
+    display: inline-block;
+}
+
+.copyrightcontent {
+    height: 100px;
+    width: 40%;
+    background-color: black;
+    margin: 30px;
+    display: inline-block;
+}
+
+.item4 {
+    height: 63px%;
+    width: 100px;
+    float: left;
+    padding: 20px;
+}
+
+.socialmedia {
+    width: 47%;
+    margin-right: 4px;
+}
+
+.fb {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+}
+
+.twitter {
+    height: 64px;
+    width: 100%;
+    background-color: black;
+}
+
+.linkedin {
+    height: 63px;
+    width: 100%;
+    background-color: black;
+}
+
+.youtube {
+    height: 62px;
+    width: 100%;
+    background-color: black;
+}
+
+.wifi {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}

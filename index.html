@@ -7,406 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Title </title>
 </head>
-<style>
-    body,
-    html {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .mainpage {
-        height: 100%;
-        width: 100%;
-        background-color: #ffc107e3;
-    }
-
-    .menu {
-        height: 50px;
-        width: 50px;
-        background-color: aliceblue;
-        right: 20px;
-        top: 20px;
-        position: absolute;
-    }
-
-    .title {
-        position: relative;
-        top: 250px;
-        left: 200px;
-        width: 80%
-    }
-
-    .title1 {
-        height: 30px;
-        width: 500px;
-        background-color: black;
-    }
-
-    .title2 {
-        height: 90px;
-        width: 650px;
-        background-color: black;
-        top: 50px;
-        position: absolute;
-    }
-
-    .button {
-        height: 10px;
-        width: 120px;
-        background-color: black;
-        top: 150px;
-        padding: 20px;
-        position: absolute;
-    }
-
-    .qualitytitle {
-        width: 100%;
-        background-color: white;
-    }
-
-    .qualityContent {
-        margin: auto;
-        width: 80%;
-        padding: 50px 0px;
-    }
-
-    .loremtitle {
-        height: 20px;
-        background-color: black;
-        width: 100%;
-        height: 100px;
-        margin: auto;
-    }
-
-    .lorempara {
-        width: 100%;
-        background-color: black;
-        height: 200px;
-        margin: 20px 0px;
-    }
-
-    .tagline {
-        background-color: #ffc107e3;
-        width: 93.4%;
-        position: relative;
-        padding: 50px;
-    }
-
-    .taglinecontent {
-        width: 80%;
-        margin: auto;
-        background-color: black;
-        height: 70px;
-    }
-
-    .shop {
-        height: 70%;
-        position: relative;
-        padding: 100px 0px;
-    }
-
-    .container {
-        height: 100%;
-        width: 80%;
-        margin: auto;
-    }
-
-    .shoptitle {
-        height: 70px;
-        width: 60%;
-        background-color: black;
-    }
-
-    .images {
-        height: 78%;
-        width: 100%;
-        padding: 20px 0px;
-    }
-
-    .image1 {
-        width: 30%;
-        height: 100%;
-        background-color: black;
-        display: inline-block;
-        margin: 10px 15px;
-
-    }
-
-    .image2 {
-        width: 30%;
-        height: 100%;
-        background-color: black;
-        display: inline-block;
-        margin: 10px 15px;
-
-    }
-
-    .image3 {
-        width: 30%;
-        height: 100%;
-        background-color: black;
-        display: inline-block;
-        margin: 10px 15px;
-    }
-
-    .shop2 {
-        height: 65%;
-        width: 100%;
-    }
-
-    .headphones {
-        height: 100%;
-        width: 80%;
-        margin: auto;
-    }
-
-    .headphonestitle {
-        height: 15%;
-        width: 45%;
-        background-color: black;
-    }
-
-    .headphone1 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 25px 30px;
-    }
-
-    .headphone2 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-
-    }
-
-    .headphone3 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .headphone4 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .headphone5 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-
-    }
-
-    .headphone6 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-
-    }
-
-    .headphone7 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .headphone8 {
-        height: 30%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .tagline2 {
-        background-color: #ffc107e3;
-        width: 92.40%;
-        padding: 70px;
-        margin-top: 25px;
-    }
-
-    .taglinecontent2 {
-        width: 80%;
-        margin: auto;
-        background-color: black;
-        height: 70px;
-    }
-
-    .about {
-        height: 50%;
-        width: 100%;
-        top: 30px;
-        position: relative;
-    }
-
-    .details {
-        height: 100%;
-        width: 78%;
-        margin: auto;
-    }
-
-    .abouttitle {
-        height: 15%;
-        width: 60%;
-        margin: auto;
-        background-color: black;
-    }
-
-    .quality1 {
-        height: 70%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .quality2 {
-        height: 70%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .quality3 {
-        height: 70%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .quality4 {
-        height: 70%;
-        width: 20%;
-        background-color: black;
-        display: inline-block;
-        margin: 20px 30px;
-    }
-
-    .contact {
-        height: 23%;
-        width: 100%;
-    }
-
-    .container2 {
-        width: 80%;
-        height: 50%;
-        margin: 100px 200px;
-    }
-
-    .question {
-        height: 45%;
-        width: 20%;
-        margin: 20px 620px;
-        background-color: black;
-    }
-
-    .visit {
-        height: 65%;
-        width: 60%;
-        margin: 20px 340px;
-        background-color: black;
-    }
-
-    .map {
-        height: 40%;
-        width: 100%;
-        background-color: black;
-    }
-
-    .copyright {
-        height: 15%;
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .copyright2 {
-        width: 80%;
-        padding: 0px 190px;
-        display: inline-block;
-    }
-
-    .symbol {
-        height: 120px;
-        width: 120px;
-        margin: 20px 0px 20px 0px;
-        background-color: black;
-        display: inline-block;
-    }
-
-    .copyrightcontent {
-        height: 100px;
-        width: 40%;
-        background-color: black;
-        margin: 30px;
-        display: inline-block;
-    }
-
-    .socialmedia {
-        width: 47%;
-        margin-right: 4px;
-        display: inline-block;
-    }
-
-    .fb {
-        height: 65px;
-        width: 65px;
-        background-color: black;
-        display: inline-block;
-        margin: 40px 30px;
-    }
-
-    .twitter {
-        height: 64px;
-        width: 64px;
-        background-color: black;
-        display: inline-block;
-        margin: 40px 30px;
-    }
-
-    .linkedin {
-        height: 63px;
-        width: 63px;
-        background-color: black;
-        display: inline-block;
-        margin: 40px 30px;
-    }
-
-    .youtube {
-        height: 62px;
-        width: 62px;
-        background-color: black;
-        display: inline-block;
-        margin: 40px 30px;
-    }
-
-    .wifi {
-        height: 60px;
-        width: 60px;
-        background-color: black;
-        display: inline-block;
-        margin: 40px 30px;
-    }
-
-</style>
+<link rel="stylesheet" a href="css/style.css">
 
 <body>
     <div class="mainpage">
@@ -429,25 +30,34 @@
     <div class="shop">
         <div class="container">
             <div class="shoptitle"></div>
-            <div class="images">
+            <div class="item">
+
                 <div class="image1"></div>
+            </div>
+
+            <div class="item">
                 <div class="image2"></div>
+            </div>
+            <div class="item">
                 <div class="image3"></div>
+            </div>
+            <div class="images">
 
             </div>
         </div>
     </div>
     <div class="shop2">
         <div class="headphones">
+           
             <div class="headphonestitle"></div>
-            <div class="headphone1"></div>
-            <div class="headphone2"></div>
-            <div class="headphone3"></div>
-            <div class="headphone4"></div>
-            <div class="headphone5"></div>
-            <div class="headphone6"></div>
-            <div class="headphone7"></div>
-            <div class="headphone8"></div>
+            <div class="item2"><div class="headphone1"></div></div>
+            <div class="item2"><div class="headphone2"></div></div>
+            <div class="item2"><div class="headphone3"></div></div>
+            <div class="item2"><div class="headphone4"></div></div>
+            <div class="item2"><div class="headphone5"></div></div>
+            <div class="item2"><div class="headphone6"></div></div>
+            <div class="item2"><div class="headphone7"></div></div>
+            <div class="item2"><div class="headphone8"></div></div>
         </div>
     </div>
     <div class="tagline2">
@@ -456,10 +66,10 @@
     <div class="about">
         <div class="details">
             <div class="abouttitle"></div>
-            <div class="quality1"></div>
-            <div class="quality2"></div>
-            <div class="quality3"></div>
-            <div class="quality4"></div>
+            <div class="item3"><div class="quality1"></div></div>
+            <div class="item3"><div class="quality2"></div></div>
+            <div class="item3"><div class="quality3"></div></div>
+            <div class="item3"><div class="quality4"></div></div>
         </div>
     </div>
     <div class="contact">
@@ -474,11 +84,12 @@
             <div class="symbol"></div>
             <div class="copyrightcontent"></div>
             <div class="socialmedia">
-                <div class="fb"></div>
-                <div class="twitter"></div>
-                <div class="linkedin"></div>
-                <div class="youtube"></div>
-                <div class="wifi"></div>
+               <div class="item4">
+                   <div class="fb"></div></div>
+                <div class="item4"><div class="twitter"></div></div>
+                <div class="item4"><div class="linkedin"></div></div>
+                <div class="item4"><div class="youtube"></div></div>
+                <div class="item4"><div class="wifi"></div></div>
             </div>
         </div>
     </div>
