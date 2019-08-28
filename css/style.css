@@ -120,14 +120,6 @@ html {
     padding: 20px;
     float: left;
 }
-
-.images {
-    height: 78%;
-    width: 100%;
-    padding: 20px 0px;
-    overflow: auto;
-}
-
 .image1 {
     width: 100%;
     height: 100%;
@@ -147,7 +139,7 @@ html {
 }
 
 .shop2 {
-    height: 65%;
+    height:70%;
     width: 100%;
 }
 
@@ -160,7 +152,7 @@ html {
 
 .item2 {
     width: 25%;
-    height: 45%;
+    height: 42%;
     padding: 20px;
     float: left;
 }
@@ -221,13 +213,13 @@ html {
 
 .tagline2 {
     background-color: #ffc107e3;
-    width: 92.40%;
+    width: 100%;
     padding: 70px;
     margin-top: 25px;
 }
 
 .taglinecontent2 {
-    width: 80%;
+    width: 85%;
     margin: auto;
     background-color: black;
     height: 70px;
@@ -299,14 +291,14 @@ html {
 .question {
     height: 45%;
     width: 20%;
-    margin: 20px 620px;
+    margin: 20px 1100px;
     background-color: black;
 }
 
 .visit {
     height: 65%;
     width: 60%;
-    margin: 20px 340px;
+    margin: 60px 600px;
     background-color: black;
 }
 
@@ -319,19 +311,18 @@ html {
 .copyright {
     height: 15%;
     width: 100%;
-    margin-top: 20px;
 }
 
 .copyright2 {
-    width: 80%;
+    width: 100%;
     padding: 0px 190px;
     display: inline-block;
 }
 
 .symbol {
-    height: 120px;
+    height: 100px;
     width: 120px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px;
     background-color: black;
     display: inline-block;
 }
@@ -340,22 +331,21 @@ html {
     height: 100px;
     width: 40%;
     background-color: black;
-    margin: 30px;
+    margin: 20px 30px;
     display: inline-block;
 }
-
+.socialmedia{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 300px;
+}
 .item4 {
-    height: 63px%;
+    height: 100px;
     width: 100px;
-    float: left;
-    padding: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
 }
-
-.socialmedia {
-    width: 47%;
-    margin-right: 4px;
-}
-
 .fb {
     height: 65px;
     width: 100%;
@@ -363,25 +353,25 @@ html {
 }
 
 .twitter {
-    height: 64px;
+    height: 65px;
     width: 100%;
     background-color: black;
 }
 
 .linkedin {
-    height: 63px;
+    height: 65px;
     width: 100%;
     background-color: black;
 }
 
 .youtube {
-    height: 62px;
+    height: 65px;
     width: 100%;
     background-color: black;
 }
 
 .wifi {
-    height: 60px;
+    height: 65px;
     width: 100%;
     background-color: black;
 }
