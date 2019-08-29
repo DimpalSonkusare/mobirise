@@ -338,13 +338,13 @@ html {
     width: 30%;
     display: inline-block;
     margin: 20px 300px;
+    overflow: auto;
 }
 .item4 {
     height: 100px;
     width: 100px;
     padding: 10px;
-    display: inline-block;
-    margin: auto;
+    float: left;
 }
 .fb {
     height: 65px;
